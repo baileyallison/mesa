@@ -1,0 +1,7 @@
+[package]
+name = "check_tunings"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+os_info = { version = "3.14.0", default-features = false, features = ["schemars", "serde"] }
